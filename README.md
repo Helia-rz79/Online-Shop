@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project Tailwindcss with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+![31](https://github.com/user-attachments/assets/1b0d5668-a03e-4ef6-8d14-c1da1c487a48)
 
-![31](https://github.com/user-attachments/assets/34a0688e-4e25-4024-9290-656dd0a2f14f)
 
 
 -🔗 [Demo Project](https://online-shop-one-gules.vercel.app/)
