@@ -1,19 +1,22 @@
 This is a [Next.js](https://nextjs.org) project Tailwindcss with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
+![31](https://github.com/user-attachments/assets/34a0688e-4e25-4024-9290-656dd0a2f14f)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-🔗 [Demo Project](https://online-shop-one-gules.vercel.app/)
 
-## Learn More
+-🙍 Developed by helia rezaie
 
-To learn more about Next.js, take a look at the following resources:
+-🗓️ Created - 2025-05-20
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-📱 Technologies Used - Html , Tailwind , Nextjs .
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Hooks Used : useState , useEffect
+
+- Role - Frontend
+
+-📥 How to reach me : with my [instagram](https://www.instagram.com/helia.web) and [linkedin](https://www.linkedin.com/in/helia-rezaie-web)
 
 ## Deploy on Vercel
 
