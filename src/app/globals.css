@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-sorkhabi: rgb(218, 25, 132);
+}
+
+@font-face {
+  font-family: IRANSans;
+  src: url(/fonts/IRANSansXFaNum-Regular.woff2);
+}
+
+body {
+  font-family: IRANSans, sans-serif;
+}
+.btn{
+  margin-top: 10px !important;
+}
+ 
+@layer components{
+  .btn{
+    @apply mt-2 
+  }
+}
