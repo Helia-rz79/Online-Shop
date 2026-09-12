@@ -33,15 +33,15 @@ export default function SearchBox() {
 
 
   return (
-    <div className="relative w-full max-w-md  my-5">
+    <div className="relative w-full max-w-xl">
       <input
         type="text"
         placeholder="جست‌وجو"
-        className="w-full border border-gray-300 rounded-lg py-2 pl-3 pr-10 focus:outline-none focus:ring-2 focus:ring-sorkhabi"
+        className="h-10 w-full rounded-xl border border-gray-300 bg-gray-50 py-2 pl-3 pr-10 text-sm transition focus:border-sorkhabi focus:bg-white focus:outline-none focus:ring-2 focus:ring-pink-100 sm:h-11"
         value={query}
         onChange={(e) =>setQuery(e.target.value)}
         onFocus={() => setIsFocused(true)}
-        onBlur={() => setTimeout(() => setIsFocused(false), 300)} 
+        onBlur={() => setTimeout(() => setIsFocused(false), 300)}
       />
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -14,8 +14,8 @@ export default async function Page({ params }) {
   const data = await getData(id)
 
   return (
-    <div className='w-[90%] mx-auto p-4 mt-10'>
+    <main className='mx-auto w-full max-w-[1280px] px-2.5 sm:px-6 lg:px-8'>
       <Pro  data={data}/>
-    </div>
+    </main>
   )
 }

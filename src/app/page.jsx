@@ -1,12 +1,12 @@
-import Body from "../components/body/Body";
-import Container from "../components/container";
+import Body from "./components/body/Body";
+import Container from "./components/container";
 
 export default function Home() {
   return (
-    <div >
+    <main>
       <Container>
         <Body />
       </Container>
-    </div>
+    </main>
   );
 }

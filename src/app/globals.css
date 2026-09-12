@@ -12,13 +12,26 @@
 
 body {
   font-family: IRANSans, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #171717;
+  overflow-x: hidden;
 }
-.btn{
-  margin-top: 10px !important;
+
+* {
+  box-sizing: border-box;
 }
- 
-@layer components{
-  .btn{
-    @apply mt-2 
-  }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-sorkhabi) !important;
 }

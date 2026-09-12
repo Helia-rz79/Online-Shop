@@ -1,7 +1,7 @@
 import './globals.css';
-import Header from "../components/header/Header";
-import Container from '../components/container';
-import Footer from '../components/footer/footer';
+import Header from "./components/header/Header";
+import Container from './components/container';
+import Footer from './components/footer/footer';
 
 
 
@@ -9,7 +9,7 @@ export const metadata = {
   title: "خرید لوازم آرایشی و بهداشتی از فروشگاه خانومی",
   description: "",
    icons: {
-    icon: "/logo/logo-s.png",
+    icon: "/logo/logo-s.jfif",
   },
 };
 
