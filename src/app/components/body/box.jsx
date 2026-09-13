@@ -47,13 +47,15 @@ export default async function Box() {
   if (!products.length) return null
 
   return (
-    <section className='rounded-xl bg-sorkhabi p-3 sm:p-5 lg:flex lg:gap-5' aria-labelledby='special-offers-title'>
-      <div className='mb-2 flex items-center justify-center gap-4 text-white lg:mb-0 lg:w-44 lg:shrink-0 lg:flex-col'>
+    <section className='rounded-xl bg-sorkhabi p-3 md:p-5 lg:flex lg:gap-5' aria-labelledby='special-offers-title'>
+      <div className='mb-2 flex items-center justify-between lg:justify-center  gap-4 text-white lg:mb-0 lg:w-44 lg:shrink-0 lg:flex-col'>
         <img className='h-10 w-auto object-contain brightness-0 invert sm:h-12 lg:h-auto lg:max-h-28' src='/logo/box-text.webp' alt='پیشنهاد شگفت‌انگیز' />
-        <img className='hidden max-h-32 object-contain lg:block' src='/logo/box-img.webp' alt='' />
-        <h2 id='special-offers-title' className='sr-only'>پیشنهادهای شگفت‌انگیز</h2>
+        <img className='hidden! max-h-32 object-contain lg:block!' src='/logo/box-img.webp' alt='' />
+        <h2 id='special-offers-title' className='lg:hidden flex items-center gap-0 text-sm font-bold text-left'>مشاهده همه 
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+        </h2>
       </div>
-      <ul className='-mx-1 flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 pb-2 lg:grid lg:flex-1 lg:grid-cols-4 lg:overflow-visible lg:pb-0'>
+      <ul className='flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 pb-2 lg:grid lg:flex-1 lg:grid-cols-4 lg:overflow-visible lg:pb-0'>
         {products.map((product) => <ProductCard product={product} key={product.id} />)}
       </ul>
     </section>
