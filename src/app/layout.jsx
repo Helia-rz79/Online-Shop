@@ -9,7 +9,7 @@ export const metadata = {
   title: "خرید لوازم آرایشی و بهداشتی از فروشگاه خانومی",
   description: "",
    icons: {
-    icon: "/logo/logo-s.jfif",
+    icon: "/logo/logo-s.png",
   },
 };
 
