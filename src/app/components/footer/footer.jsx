@@ -40,7 +40,7 @@ function Contact() {
 ////////////////////////////
 function Follow() {
   return (
-    <div>
+    <div className='col-span-2 md:col-span-1'>
       <h2 className='font-bold text-lg'>ما را در شبکه‌های اجتماعی دنبال کنید!</h2>
       <p className='my-5 text-sm leading-7 text-gray-300 sm:text-base'>هفت روز هفته، از ساعت ۸ الی ۲۴ پاسخگوی سوالات شما هستیم.</p>
       <a className='break-all hover:text-sorkhabi' href="mailto:h.rezaie2479@gmail.com">ایمیل: h.rezaie2479@gmail.com</a>
@@ -50,7 +50,7 @@ function Follow() {
 /////////////////////////
 function End() {
   return (
-    <p className='mt-10 w-full border-t border-t-gray-600 pt-5 text-center text-sm text-gray-300 sm:text-base'>🩷 Coded By Helia Rezaie</p>
+    <p className='mt-8 w-full border-t border-t-gray-600 pt-5 text-center text-sm text-gray-300 sm:text-base'>🩷 Coded By Helia Rezaie</p>
   )
 }
 
@@ -58,8 +58,8 @@ function End() {
 
 export default function Footer() {
   return (
-    <footer className='mt-12 w-full bg-[#292929] px-4 py-8 text-white sm:px-6 lg:px-8 lg:py-12'>
-      <div className='mx-auto grid w-full max-w-[1396px] grid-cols-1 gap-9 sm:grid-cols-2 lg:grid-cols-3 lg:gap-16'>
+    <footer className='mt-10 w-full bg-[#292929] px-4 py-8 text-white sm:px-6 lg:px-8 lg:py-12'>
+      <div className='mx-auto grid w-full max-w-[1396px] gap-9 grid-cols-2 lg:grid-cols-3 lg:gap-16'>
         <First />
         <Contact />
         <Follow />

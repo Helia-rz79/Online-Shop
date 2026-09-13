@@ -8,7 +8,7 @@ import Categories from './categories'
 
 export default function Body() {
   return (
-    <div className='space-y-7 pb-4 sm:space-y-10'>
+    <div className='space-y-7 pb-4 sm:space-y-10 lg:space-y-6'>
         <HeroSlider />
         <Box />
         <MySlider />

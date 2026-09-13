@@ -35,3 +35,9 @@ input {
 .swiper-pagination-bullet-active {
   background: var(--color-sorkhabi) !important;
 }
+
+@media (min-width: 1024px) {
+  .home-slider .swiper-slide img {
+    aspect-ratio: 3.5 / 1;
+  }
+}
