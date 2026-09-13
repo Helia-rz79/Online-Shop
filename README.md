@@ -1,7 +1,8 @@
 #onlineShop
 
 
-<img width="1449" height="964" alt="image" src="https://github.com/user-attachments/assets/19d30bf1-29aa-4cad-9945-bfb94f2e17ff" />
+<img width="1478" height="939" alt="image" src="https://github.com/user-attachments/assets/17bbb1e8-f07c-42ad-9231-aa6076439386" />
+
 
 
 
