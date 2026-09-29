@@ -11,8 +11,6 @@
 
 -🙍 Developed by Helia Rezaie
 
--🗓️ Created - 2025-12-1
-
 -📱 Technologies Used - Next.js , TailwindCSS , Zustand , Resful Api , Swiper .
 
 - Role - Frontend
